@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Hi, There
+Hi, there welcome to my site!! Very pleased to have you here, you can know more about me in the about section or you may choose to read my blogs given below :
