@@ -77,6 +77,110 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
   transform: scale(1.1);
 }
+
+.skills-section {
+  background-image: url('/assets/img/skills.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+  font-size: 18px;
+}
+
+.skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skills-text {
+  width: 90%;
+  margin: auto;
+  background: white;
+  padding: 30px;
+}
+
+.skills-text h1 {
+  font-size: 36px;
+}
+
+.skills-text ul {
+  list-style-type: none;
+  
+}
+
+.skills-text li {
+  padding: 5px;
+}
+
+.interest-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 20px;
+}
+
+.interest-table ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.interest {
+  width: 640px;
+  height: 426px;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: background-color 0.3s;
+}
+
+.interest:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.skills-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+}
+
+.skills-table h3 {
+  font-size: 24px;
+}
+
+.icon {
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.about {
+  width: 90% ;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 18px;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about h1 {
+  font-size: 36px;
+}
+
+.about p {
+  padding-top: 5px;
+}
+
 /* To Setup Custom Styles */
 
 /* Parallax */
@@ -185,6 +289,21 @@ margin-right: (40px / 2);
 
 .f-right {
   float: right;
+}
+
+@media screen and (max-width:768px) {
+  .banner section {
+    width: 100%;
+  }
+  .interest-table {
+    grid-template-columns: auto;
+  }
+  .skills-table {
+    grid-template-columns: auto;
+  }
+  .post-list {
+    grid-template-columns: auto;
+  }
 }
 
 @media screen and (max-width:600px) {
